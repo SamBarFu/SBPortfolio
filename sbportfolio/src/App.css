@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+.title{
+    color: #1B2F4C;
+    letter-spacing: 15px;
+}
+
+/* navbar */ 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C13838;
+    height: 4rem;
+    padding: 0 2rem;
+}
+
+.nav-items > a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #FFF7C7;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.nav-logo > img{
+    height: 2.8em;
+}
+
+/* container resume */
+.cont-resume{    
+    background-color: rgba(243, 243, 243, 0.4);
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.resume-head{
+    display: flex;
+    align-items: center;
+    background-color: #1B2F4C;
+    color: #CDEDDA;
+    height: 12rem;
+    padding-left: 5rem;
+}
+
+.photo > img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 5px solid #CDEDDA;
+    margin: 0 2rem;
+}
+
+/* body resume */
+.resume-body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* info */
+.cont-info{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background-color: #F3F3F3;
+    height: 15rem;
+}
+
+.cont-info > div > p{
+    margin-bottom: 2rem;
+}
+
+
+/* about me */
+.cont-about{
+    padding: 1rem 2rem;
+}
+
+.about > p {
+    color: #333333;
+}
+
+/* education */
+.cont-education{
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+
+.studies{
+    margin: 2rem 0;
+}
+
+.studies > p{
+    margin: 0.5rem ;
+}
+
+.title1{
+    color: #023073;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.subtitle1{
+    color: #333333;
+}
+
+.year{
+    color: #333333;
+}
+
+/* knowledges */
+.cont-knowledges{
+    padding: 2rem;
+}
+
+.knowledges{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.circle{
+    margin: 0 0.5rem;
+}
+
+.subtitle{
+    margin-right: 1rem;
+}

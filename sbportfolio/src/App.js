@@ -1,8 +1,8 @@
 import React from 'react';
-import './components/css/Styles.css';
+import './App.css';
 
 import Navbar from './components/Navbar.js'
-import Resume from './components/Resume.js'
+import Resume from './components/resume/Resume.js'
 
 function App() {
   return (
