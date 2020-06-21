@@ -12,7 +12,9 @@ class Knowledges extends Component {
         return <div className="knowledges">
             <h3 className="subtitle">{this.props.name}</h3>
             <span> 
-                {this.levelKnowledge()}
+                <i class="fas fa-circle fa-2x"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
             </span>
         </div>
     }

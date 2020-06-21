@@ -129,3 +129,9 @@
 .subtitle{
     margin-right: 1rem;
 }
+
+/* icons */
+
+.fas, .fab{
+    margin: 0 1rem;
+}
