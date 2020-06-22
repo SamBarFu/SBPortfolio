@@ -4,9 +4,8 @@ import circle from '../../img/Elipse 10.png'
 
 class Knowledges extends Component {
 
-    constructor(props){
-        super(props)
-        this.level = []
+    state = {
+        level: []
     }
 
     circleFill(){
@@ -16,9 +15,9 @@ class Knowledges extends Component {
     //agrega un componente circleFill al array level
     levelKnowledge(){                    
         for (let i = 0; i < this.props.level; i++) {
-           this.level.push(this.circleFill())            
+           this.state.level.push(this.circleFill())            
         }
-        return this.level
+        return this.state.level
     }
 
     render() {

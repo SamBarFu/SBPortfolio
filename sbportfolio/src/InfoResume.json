@@ -72,5 +72,11 @@
             "name": "HTML",
             "level": 8
         }
+    ],
+    "languages":[
+        {
+            "name": "Ingles",
+            "level": 2
+        }
     ]
 }

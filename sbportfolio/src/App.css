@@ -130,6 +130,14 @@
     margin-right: 1rem;
 }
 
+/* languages */
+
+.languages{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
 /* icons */
 
 .fas, .fab{
