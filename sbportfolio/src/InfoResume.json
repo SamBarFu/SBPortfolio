@@ -42,5 +42,35 @@
             "school": "Universidad Nacional de Ingenieria",
             "lapse": "2016 - present (5th)"
         }
+    ],
+    "knowledge":[
+        {
+            "name": "HTML",
+            "level": 1
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        },
+        {
+            "name": "HTML",
+            "level": 8
+        }
     ]
 }

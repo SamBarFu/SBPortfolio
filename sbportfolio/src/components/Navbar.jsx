@@ -9,8 +9,8 @@ class Navbar extends Component {
                     <img src={logo} alt="logo_SB"/>
                 </div>
                 <div className="nav-items">
-                    <a href="#"><i class="fas fa-id-badge"></i>Resume</a>
-                    <a href="#"><i class="fas fa-briefcase"></i>Portfolio</a>
+                    <a href="#"><i className="fas fa-id-badge"></i>Resume</a>
+                    <a href="#"><i className="fas fa-briefcase"></i>Portfolio</a>
                  </div>
             </header>
         </div>

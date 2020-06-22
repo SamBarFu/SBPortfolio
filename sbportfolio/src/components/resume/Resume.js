@@ -43,8 +43,9 @@ class Resume extends Component {
                 <div>
                     <div className="cont-knowledges">
                         <h1 className="title">Knowledges</h1>
-                        <Knowledge name="HTML" level="8"/>
-                        <Knowledge name="HTML" level="8"/>
+                        {this.infoResume.knowledge.map( (value, index) => {
+                            return <Knowledge name={value.name} level={value.level} key={index}/>
+                        })}
                     </div> 
                                        
                     <Language />
