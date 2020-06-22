@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import circle from '../../img/Elipse 9.png'
-//import circleFill from '../../img/Elipse 10.png'
+import circle from '../../img/Elipse 10.png'
 
 class Knowledges extends Component {
 
@@ -10,9 +10,10 @@ class Knowledges extends Component {
     }
 
     circleFill(){
-        return <i className="fas fa-circle fa-lg"></i>
+        return <img className="circle-level" src={circle} alt="."></img>
     }
 
+    //agrega un componente circleFill al array level
     levelKnowledge(){                    
         for (let i = 0; i < this.props.level; i++) {
            this.level.push(this.circleFill())            
