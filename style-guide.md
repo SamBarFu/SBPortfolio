@@ -7,6 +7,7 @@
 
 ### resume
 
+- DarkSlateGray: #2F4F4F 
 - first-color: #1B2F4C
 - second-color: #CDEDDA
 - third-color: #333333

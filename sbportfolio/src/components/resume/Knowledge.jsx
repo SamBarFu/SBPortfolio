@@ -13,7 +13,8 @@ class Knowledges extends Component {
     }
 
     //agrega un componente circleFill al array level
-    levelKnowledge(){                    
+    levelKnowledge(){  
+        this.state.level = []                  
         for (let i = 0; i < this.props.level; i++) {
            this.state.level.push(this.circleFill())            
         }
@@ -26,7 +27,7 @@ class Knowledges extends Component {
             <span> 
                 {
                     this.levelKnowledge().map( (val, i) => {
-                        return val
+                        return val //retorna un componente circleFill
                     })
                 }
             </span>

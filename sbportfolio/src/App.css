@@ -26,7 +26,7 @@
     font-size: 1.2rem;
 }
 
-.nav-logo > img{
+.img-logo{
     height: 2.8em;
 }
 
@@ -138,8 +138,141 @@
     padding-left: 1rem;
 }
 
+/* styles portfolio */
+
+.cont-portfolio{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head-portfolio{
+    display: flex;
+    align-items: center;
+    background-color: #1B2F4C;
+    color: #CDEDDA;
+    height: 12rem;
+    padding-left: 5rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #2F4F4F ;
+    border-radius: 50%;
+    background-color: #C13838;
+    height: 9rem;
+    width: 9rem;
+    margin: 3rem;
+}
+
+.logo > img{
+    height: 7rem;
+}
+
+/* portfolio body */
+.body-portfolio{
+    margin: 2rem 5rem;
+}
+
+.title-portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cont-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 3rem;
+    margin: 2rem 0;
+}
+
+.card-project{
+    display: flex;
+    flex-direction: column;   
+    padding: 1rem 0; 
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    border: 2px solid #2F4F4F;
+}
+
+.card-project > img{
+    align-self: center;
+    border-radius: 5px;
+}
+
+.card-project > h2{
+    margin: 1rem;
+}
+
+/* styles projest list*/
+.list-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    /* border-bottom: 1px solid #023073; */
+    margin: 2rem 0;
+}
+
+/* details project */
+.cont-details-project{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    border-bottom: 2px solid #1B2F4C;
+}
+
+.details{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.details > img{
+    width: 16rem;
+    height: 12rem;
+}
+
+.info-project{
+    margin: 0 2rem;
+}
+
+
+/* technologies */
+.techno{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2rem;
+    height: 2rem;
+}
+
+.techno > h4{
+    width: 6%;
+}
+
+.cont-bar{
+    width: 80%;
+    height: 1rem;
+    margin: 0 1rem;
+    background-color: #1B2F4C;
+    border-radius: 10px;
+}
+
+.bar{
+    height: 1rem;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #C13838;
+}
+
 /* icons */
 
 .fas, .fab{
     margin: 0 1rem;
+    cursor: pointer;
 }

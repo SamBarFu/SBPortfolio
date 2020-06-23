@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-//components import
+//components imports
 import Info from './Info.jsx'
 import About from './About.jsx'
 import Education from './Education.jsx'
 import Knowledge from './Knowledge.jsx'
 
-//assets import
+//assets imports
 import InfoResume from '../../InfoResume.json'
 import photo from '../../img/sam-photo.jpg'
 

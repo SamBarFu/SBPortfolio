@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-import logo from '../img/SB-logo.png'
+import logo from '../img/SB-logoV2.png'
 
 class Navbar extends Component {
     render(){
         return <div>
             <header className="navbar">
                 <div className="nav-logo">
-                    <img src={logo} alt="logo_SB"/>
+                <Link to="/"><img src={logo} className="img-logo" alt="logo_SB"/></Link>                    
                 </div>
                 <div className="nav-items">
                         <Link to="/"><i className="fas fa-id-badge"></i>Resume</Link>
