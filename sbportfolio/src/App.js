@@ -1,14 +1,22 @@
+/* import modules */ 
 import React from 'react';
-import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 
-import Navbar from './components/Navbar.js'
+/* components imports */
+import Navbar from './components/Navbar.jsx'
 import Resume from './components/resume/Resume.js'
+import Portfolio from './components/Portfolio/portfolio.js'
+
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Resume/>
+    <div className="App">      
+      <Router>
+        <Navbar/>
+        <Route exact path="/" component={Resume} />
+        <Route path="/portfolio" component={Portfolio} />
+      </Router>
     </div>
   );
 }
