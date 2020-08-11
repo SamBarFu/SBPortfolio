@@ -1,0 +1,97 @@
+@import '_mixins'
+
+.header
+    background-image: url('../img/457-4896x2760.jpg')
+    background-position: center bottom
+    background-size: cover
+    min-height: 100vh
+
+    .nav        
+        +flex-row-center()
+        padding: 1rem 2rem
+
+        img
+            +reponsiveImage($height: 60px)
+    
+    .info-header
+        display: flex
+        justify-content: space-between
+        margin: 2rem 0
+        padding: 2rem 5rem
+
+        img
+            +circleImg()
+            border: solid 2px $primaryColor
+        
+        .info-personal
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            flex: 1
+            padding: 0 2rem            
+            margin-left: 2rem
+            color: $primaryColor
+
+            .icons-redes
+                margin: 3rem 0
+
+        
+
+.info-contact
+    +flex-column-center()
+    align-items: flex-start
+    background-color: $grayLightBG
+    padding: 2rem
+    flex: 1
+    font-family: 'Roboto', sans-serif
+    
+
+    span
+        margin: 1rem 0
+
+        a 
+            text-decoration: none
+            margin-left: 1rem
+            color: $primaryColor
+
+@media only screen and ( max-width: 600px ), screen and ( max-width: 768px )
+
+    .header
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: auto auto
+
+    .nav
+        grid-column: 1/2
+        grid-row: 1/2
+
+        img 
+            height: 40px !important
+
+    .info-header
+        +flex-column-center()
+        padding: 0 !important  
+        grid-column: 1/2   
+        grid-row: 2/3     
+
+        img 
+            margin-bottom: 1rem  
+
+        .info-personal
+            align-items: center !important
+            justify-content: center !important
+            padding: 0 !important
+            margin: 0 !important
+            text-align: center 
+
+            .buttons
+                display: inline-flex
+        
+
+    .cont-info-contact
+        position: absolute
+        top: 100vh
+
+
+    
+            

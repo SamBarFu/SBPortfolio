@@ -7,8 +7,8 @@ import Education from './Education.jsx'
 import Knowledge from './Knowledge.jsx'
 
 //assets imports
-import InfoResume from '../../InfoResume.json'
-import photo from '../../img/sam-photo.jpg'
+import InfoResume from '../../../InfoResume.json'
+import photo from '../../../img/sam-photo.jpg'
 
 class Resume extends Component {
 

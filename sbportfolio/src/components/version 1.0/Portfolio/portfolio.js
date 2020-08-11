@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import logo from '../../img/SB-logoV3.png'
+import logo from '../../../img/SB-logoV3.png'
 import Projects from './Projects.jsx'
 
 export default class Portfolio extends Component {

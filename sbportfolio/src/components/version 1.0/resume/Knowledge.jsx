@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import circle from '../../img/Elipse 9.png'
-import circle from '../../img/Elipse 10.png'
+import circle from '../../../img/Elipse 10.png'
 
 class Knowledges extends Component {
 
