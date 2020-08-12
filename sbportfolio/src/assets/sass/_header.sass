@@ -54,7 +54,24 @@
             margin-left: 1rem
             color: $primaryColor
 
-@media only screen and ( max-width: 600px ), screen and ( max-width: 768px )
+/* About me */
+.cont-about
+    display: flex
+    align-items: center
+    background-color: $grayPrimary
+    line-height: 2
+
+    img 
+        +reponsiveImage($height: 350px)
+    
+    p
+        padding: 0 8rem
+        font-size: 1.3rem
+        color: $darkGray
+        text-align: center
+        
+
+@media only screen and ( max-width: 768px )
 
     .header
         display: grid
@@ -91,6 +108,20 @@
     .cont-info-contact
         position: absolute
         top: 100vh
+    
+    /* About me */
+    .cont-about
+        flex-direction: column
+        padding-top: 70% 
+
+        img 
+            +reponsiveImage($height: 150px)
+        
+        p
+            padding: 0 1.5rem
+            font-size: 1.1rem
+            color: $darkGray
+            text-align: justify
 
 
     
