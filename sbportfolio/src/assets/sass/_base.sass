@@ -1,5 +1,8 @@
+@import '_mixins'
+    
 body
     font-family: 'Roboto', sans-serif
+    background-color: $grayPrimary
 
 h1, h2, h3, h4, h5, h6
     margin: 0
@@ -45,6 +48,24 @@ h2
 .link-disabled
     pointer-events: none
 
+.container
+    min-height: 80vh
+    padding: 0 3rem
+
+.info-icon
+    color: $darkGray
+    +flex-column-center()
+     
+    i 
+        font-size: 15rem
+        cursor: default
+
+    h2 
+        color: $darkBlue
+        font-size: 3rem
+        font-weight: 700
+        margin: 2rem 0
+
 
 @media only screen and ( max-width: 600px )
     h1
@@ -63,3 +84,6 @@ h2
         font-weight: 600
         margin: 0.5rem
         font-size: 1rem
+    
+    .container
+        padding: 0 1rem

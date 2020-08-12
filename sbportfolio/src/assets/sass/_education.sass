@@ -1,0 +1,32 @@
+@import '_mixins'
+    
+
+.cont-education
+    display: flex
+    color: $darkGray
+    min-height: 80vh
+
+    .info-education
+        background-color: $grayMediumBG
+        padding: 2rem 4rem
+        +flex-column-center()
+        align-items: flex-start
+        flex: 1
+
+
+        .edu
+            margin: 1.5rem 0
+            font-family: 'Roboto', sans-serif
+            font-size: 1.2rem
+
+            p 
+                margin: 0.5rem 0
+
+            .title1
+                color: $lightyBlue
+                font-weight: 700
+    
+    .info-icon
+        background-color: $grayLightBG
+        flex: 2
+    
