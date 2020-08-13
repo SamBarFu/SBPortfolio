@@ -1,0 +1,159 @@
+@import '_mixins'
+    
+/* section education */
+.cont-education
+    display: flex
+    color: $darkGray
+    min-height: 80vh
+
+    .info-education
+        background-color: $grayMediumBG
+        padding: 2rem 4rem
+        +flex-column-center()
+        align-items: flex-start
+        flex: 1
+
+
+        .edu
+            margin: 1.5rem 0
+            font-family: 'Roboto', sans-serif
+            font-size: 1.2rem
+            align-self: stretch
+
+            p 
+                margin: 0.5rem 0
+
+            .title1
+                color: $lightyBlue
+                font-weight: 700
+                letter-spacing: 2px
+    
+    .info-icon
+        background-color: $grayLightBG
+        flex: 2
+
+/* section knowledge */
+.cont-knowledges
+    //+flex-column-center
+    padding: 5rem 0 
+
+    .info-knowledge
+        +flex-row-center
+        justify-content: center !important
+        flex-wrap: wrap
+        background-color: $grayLightBG
+        margin: 0 8rem
+        padding: 2rem 3rem
+
+        i 
+            font-size: 3rem
+            margin: 1rem
+
+/* section work experiencie */
+.cont-experience
+    display: flex
+    flex-direction: row
+    padding: 0
+
+    .info-experiencie
+        background-color: $grayMediumBG
+        padding: 2rem 4rem
+        +flex-column-center()
+        align-items: flex-start
+        flex: 1
+
+        .work
+            margin: 1.5rem 0
+            font-family: 'Roboto', sans-serif
+            font-size: 1.2rem
+            align-self: stretch
+            color: $lightyBlue
+            
+            p 
+                margin: 0.5rem 0 0 2rem
+                color: $darkGray !important
+                font-weight: 700
+    .info-icon
+        background-color: $white
+        flex: 2
+        text-align: center
+
+
+@media screen and ( max-width: 768px )
+
+    /* section education */
+    .cont-education
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: 40vh auto      
+        font-size: 1rem  
+        
+
+        .info-education
+            grid-column: 1/2
+            grid-row: 2/3
+            background-color: $grayLightBG
+            padding: 0 2rem
+
+            .edu
+                font-size: 1rem  
+        
+        .info-icon
+            grid-column: 1/2
+            grid-row: 1/2
+    
+    /* section education */
+    .cont-knowledges
+        min-height: 50vh
+
+        .info-knowledge
+            background-color: $grayPrimary
+            margin: 0
+            padding: 2rem
+
+            i 
+                font-size: 2rem
+                margin: 1rem
+                color: $darkGray
+
+    /* section work experience */
+    .cont-experience  
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: 50vh auto 
+        font-size: 1rem   
+              
+
+        .info-experiencie
+            grid-column: 1/2
+            grid-row: 2/3
+            background-color: $white
+            padding: 0 2rem
+            display: flex
+            flex-direction: column
+            justify-content: center !important
+            align-items: center !important
+
+            .work
+                font-size: 1rem  
+                text-align: center
+
+                span 
+                    +flex-column-center()
+
+                    .far
+                        margin: 0.5rem 0
+                
+                p 
+                    margin: 0.5rem 0
+
+        .info-icon
+            grid-column: 1/2
+            grid-row: 1/2
+            
+
+
+            
+
+    
+    

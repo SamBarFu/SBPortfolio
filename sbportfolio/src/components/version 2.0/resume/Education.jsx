@@ -6,18 +6,18 @@ class Education extends Component{
             <div className="info-education">
                 <div className="edu">
                     <p className="title1">Elementary</p>
-                    <p className="subtitle1"><strong>Colegio Fe y Alegria</strong></p>
-                    <p className="year"><i>2002-2006</i></p>
+                    <p className="subtitle1"><i><strong>Colegio Fe y Alegria</strong></i></p>
+                    <p className="year">2002-2006</p>
                 </div>
                 <div className="edu">
                     <p className="title1">Elementary</p>
-                    <p className="subtitle1"><strong>Colegio Fe y Alegria</strong></p>
-                    <p className="year"><i>2002-2006</i></p>
+                    <p className="subtitle1"><i><strong>Colegio Fe y Alegria kgjhgj gjhfjhggjhg jhgjhgjhg</strong></i></p>
+                    <p className="year">2002-2006</p>
                 </div>
                 <div className="edu">
                     <p className="title1">Elementary</p>
-                    <p className="subtitle1"><strong>Colegio Fe y Alegria</strong></p>
-                    <p className="year"><i>2002-2006</i></p>
+                    <p className="subtitle1"><i><strong>Colegio Fe y Alegria</strong></i></p>
+                    <p className="year">2002-2006</p>
                 </div>
             </div>
             <div className="info-icon">
