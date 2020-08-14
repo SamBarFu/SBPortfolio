@@ -1,0 +1,44 @@
+@import '_mixins'
+
+footer
+    background-color: $footerBG
+    min-height: 30vh
+    +flex-column-space-between()
+    padding: 2rem 1rem 1rem 1rem
+
+    .arrow-top
+        text-align: center    
+           
+        
+        .icon-arrow 
+            width: 3.5rem
+            height: 3.5rem            
+            background-color: $primaryColor
+            text-align: center
+            +flex-column-center()
+
+            i 
+                color: $footerBG
+            
+        
+        p 
+            font-family: 'Roboto', sans-serif
+            font-size: 1.2rem
+            font-weight: 700
+            color: $darkGray
+            margin: 1rem 0
+
+    .icons-redes
+        font-size: 1.5rem
+    
+    small
+        align-self: flex-end
+        font-family: 'Roboto', sans-serif        
+        
+        a 
+            text-decoration: none
+            color: $darkGray
+
+
+
+        

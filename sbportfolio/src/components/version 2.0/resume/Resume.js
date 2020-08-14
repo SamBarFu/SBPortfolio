@@ -6,6 +6,8 @@ import About from './About'
 import Education from './Education'
 import Knowledge from './Knowledge'
 import Experiencie from './WorkExperiencie'
+import Portfolio from './Portfolio'
+import Footer from '../Footer'
 
 class Resume extends Component{
     render(){
@@ -15,6 +17,8 @@ class Resume extends Component{
             <Education/>
             <Knowledge/>
             <Experiencie/>
+            <Portfolio/>
+            <Footer/>
         </div>
     }
 }

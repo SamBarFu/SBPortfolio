@@ -46,8 +46,9 @@
         padding: 2rem 3rem
 
         i 
-            font-size: 3rem
-            margin: 1rem
+            font-size: 4rem
+            margin: 2rem
+            color: $darkGray
 
 /* section work experiencie */
 .cont-experience
@@ -77,6 +78,35 @@
         background-color: $white
         flex: 2
         text-align: center
+
+/* section portfolio */
+.cont-portfolio
+    +flex-column-space-between()
+    min-height: 100vh 
+    
+
+    .cont-project
+        +flex-row-center()
+        justify-content: center
+
+        .card-project
+            +flex-column-center()
+            background-color: $grayMediumBG
+            margin: 1rem 3rem
+            width: 15rem
+            height: 18rem
+            color: $darkGray
+
+            img 
+                +reponsiveImage($height: 100px)
+                margin: 2rem 0 1rem 0
+            
+            h3 
+                color: $darkBlue
+            
+            .icons-link
+                margin: 1rem 0
+    
 
 
 @media screen and ( max-width: 768px )
